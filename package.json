@@ -1,0 +1,26 @@
+{
+    "name": "terminal-animations",
+    "version": "0.2.0",
+    "description": "A collection of looping animations for the terminal created with Node.js",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "keywords": [
+      "terminal",
+      "animations",
+      "nodejs",
+      "ascii-art",
+      "cli"
+    ],
+    "author": "pilot2254",
+    "license": "MIT",
+    "dependencies": {
+      "chalk": "^5.3.0",
+      "terminal-kit": "^3.0.0",
+      "blessed": "^0.1.81",
+      "figlet": "^1.6.0",
+      "gradient-string": "^2.0.2"
+    },
+    "type": "module"
+  }
